@@ -1,0 +1,115 @@
+# polymarket-zero-to-pro — .gitignore
+
+
+# SECRETS — NEVER COMMIT THESE
+.env
+.env.local
+.env.production
+*.pem
+*.key
+private_key.txt
+secrets.json
+
+
+# LOGS & TRADE HISTORY
+logs/
+*.log
+*.csv
+trade_history.csv
+ai_trades.csv
+
+# PYTHON
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+pip-wheel-metadata/
+
+
+# VIRTUAL ENVIRONMENTS
+venv/
+env/
+.venv/
+.env/
+ENV/
+env.bak/
+venv.bak/
+
+# JUPYTER NOTEBOOKS
+.ipynb_checkpoints/
+*.ipynb
+
+
+# NODE / TYPESCRIPT (if using JS bots)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+dist/
+.next/
+
+
+# OS FILES
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+
+# EDITORS & IDEs
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm / JetBrains
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Vim
+*.swp
+*.swo
+Session.vim
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+
+# TESTING & COVERAGE
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+coverage.xml
+*.coveragerc
+
+# MISC
+*.bak
+*.tmp
+*.temp
+.cache/
+.mypy_cache/
+.ruff_cache/
