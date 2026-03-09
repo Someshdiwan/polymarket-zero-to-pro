@@ -1,6 +1,6 @@
 # Contributing to polymarket-zero-to-pro
 
-> This project is built from real trading experience. Contributions that add genuine value — real examples, working code, honest analysis — are welcome. Quality over quantity, always.
+> This project is built from real trading experience. Contributions that add genuine value real examples, working code, honest analysis are welcome. Quality over quantity, always.
 
 ---
 
