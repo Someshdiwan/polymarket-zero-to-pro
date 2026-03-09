@@ -292,7 +292,6 @@ def display_signals(signals):
 
 
 # Quick Test
-
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO)
 
@@ -311,4 +310,3 @@ if __name__ == "__main__":
         display_signals([result])
     else:
         print("No signal found for test market.")
-        
