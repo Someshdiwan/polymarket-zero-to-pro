@@ -1,6 +1,6 @@
 """
 Polymarket Starter Bot
-======================
+
 A simple CLI bot to interact with Polymarket markets.
 Supports: fetching markets, viewing positions, placing trades.
 
